@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>menuWindow</class>
+ <widget class="QMainWindow" name="menuWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>772</width>
+    <height>93</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Tahoma</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Sistema Unificado de Saúde</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>772</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuVacina">
+    <property name="title">
+     <string>Vacina&amp;r</string>
+    </property>
+    <addaction name="actionCadastrar"/>
+    <addaction name="actionVisualizarCartao"/>
+   </widget>
+   <widget class="QMenu" name="menuPerfil">
+    <property name="title">
+     <string>Perfi&amp;l</string>
+    </property>
+    <addaction name="actionConfiguracoes"/>
+    <addaction name="actionHistoricoConsultas"/>
+    <addaction name="actionSair"/>
+   </widget>
+   <widget class="QMenu" name="menuMedicamentos">
+    <property name="title">
+     <string>&amp;Veincular médico e paciente</string>
+    </property>
+    <addaction name="relacionarMedicoPaciente"/>
+   </widget>
+   <widget class="QMenu" name="menuConsultas">
+    <property name="title">
+     <string>Consulta &amp;médica</string>
+    </property>
+    <addaction name="actionCriarConsulta"/>
+    <addaction name="actionConsultasMarcadas"/>
+   </widget>
+   <widget class="QMenu" name="menuConsultar_cart_o_de_vacinas">
+    <property name="title">
+     <string>Co&amp;nsultar cartão de vacinas</string>
+    </property>
+    <addaction name="actionConsultarCartao"/>
+    <addaction name="actionImprimir"/>
+    <addaction name="actionGerar_QR_Code"/>
+   </widget>
+   <addaction name="menuMedicamentos"/>
+   <addaction name="menuVacina"/>
+   <addaction name="menuConsultas"/>
+   <addaction name="menuConsultar_cart_o_de_vacinas"/>
+   <addaction name="menuPerfil"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAdiconar_Sintomas">
+   <property name="text">
+    <string>Adiconar Sintomas</string>
+   </property>
+  </action>
+  <action name="actionCadastrar">
+   <property name="text">
+    <string>&amp;Cadastrar vacina</string>
+   </property>
+  </action>
+  <action name="actionConfiguracoes">
+   <property name="text">
+    <string>&amp;Configurações</string>
+   </property>
+  </action>
+  <action name="relacionarMedicoPaciente">
+   <property name="text">
+    <string>&amp;Relacionar Paciente/Médico</string>
+   </property>
+  </action>
+  <action name="actionHistoricoConsultas">
+   <property name="text">
+    <string>&amp;Histórico de Consultas</string>
+   </property>
+  </action>
+  <action name="actionCriarConsulta">
+   <property name="text">
+    <string>&amp;Criar consulta</string>
+   </property>
+  </action>
+  <action name="actionCancelar_Consulta">
+   <property name="text">
+    <string>Cancelar consulta</string>
+   </property>
+  </action>
+  <action name="actionInforma_es_de_consulta">
+   <property name="text">
+    <string>Informações de consulta</string>
+   </property>
+  </action>
+  <action name="actionRelat_rio_da_consulta">
+   <property name="text">
+    <string>Relatório da consulta</string>
+   </property>
+  </action>
+  <action name="actionConsultasMarcadas">
+   <property name="text">
+    <string>Consultas &amp;marcadas</string>
+   </property>
+  </action>
+  <action name="actionConsultar_hist_rico">
+   <property name="text">
+    <string>Consultar histórico</string>
+   </property>
+  </action>
+  <action name="actionVisualizarCartao">
+   <property name="text">
+    <string>&amp;Visualizar cartão</string>
+   </property>
+  </action>
+  <action name="actionConsultarCartao">
+   <property name="text">
+    <string>&amp;Consultar Cartão</string>
+   </property>
+  </action>
+  <action name="actionImprimir">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Imprimir</string>
+   </property>
+  </action>
+  <action name="actionGerar_QR_Code">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Gerar QR Code</string>
+   </property>
+  </action>
+  <action name="actionSair">
+   <property name="text">
+    <string>&amp;Sair</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
