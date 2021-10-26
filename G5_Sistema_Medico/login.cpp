@@ -18,11 +18,11 @@ login::login(QWidget *parent)
     ui->setupUi(this);
 
 	// ----- DB CONNECTION ----- //
-	dataBase.setDatabaseName( "/home/osboxes/Desktop/Projects/MedTrab/dataBase/sus_db.db" );
+	dataBase.setDatabaseName( "/home/osboxes/Desktop/Projects/Trab_Engenharia_Software/dataBase/sus_db.db" );
 
 	if( !dataBase.open() )
 	{
-		//QDebug( "não foi possível abrir o banco de dados" );
+		qDebug() << "não foi possível abrir o banco de dados" ;
 	}
 	// ----- ----- //
 

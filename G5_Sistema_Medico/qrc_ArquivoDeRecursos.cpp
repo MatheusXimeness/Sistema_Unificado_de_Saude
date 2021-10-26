@@ -7,7 +7,7 @@
 *****************************************************************************/
 
 static const unsigned char qt_resource_data[] = {
-  // /home/osboxes/Desktop/Projects/MedTrab/G5_Sistema_Medico/icones/apps.png
+  // /home/osboxes/Desktop/Projects/Trab_Engenharia_Software/G5_Sistema_Medico/icones/apps.png
   0x0,0x0,0x88,0xcf,
   0x89,
   0x50,0x4e,0x47,0xd,0xa,0x1a,0xa,0x0,0x0,0x0,0xd,0x49,0x48,0x44,0x52,0x0,

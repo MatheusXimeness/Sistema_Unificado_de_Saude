@@ -82,9 +82,6 @@ public:
         actionConsultar_hist_rico->setObjectName(QStringLiteral("actionConsultar_hist_rico"));
         actionVisualizarCartao = new QAction(menuWindow);
         actionVisualizarCartao->setObjectName(QStringLiteral("actionVisualizarCartao"));
-        QIcon icon;
-        icon.addFile(QStringLiteral(":/icones/icones/apps.png"), QSize(), QIcon::Normal, QIcon::Off);
-        actionVisualizarCartao->setIcon(icon);
         actionConsultarCartao = new QAction(menuWindow);
         actionConsultarCartao->setObjectName(QStringLiteral("actionConsultarCartao"));
         actionImprimir = new QAction(menuWindow);
